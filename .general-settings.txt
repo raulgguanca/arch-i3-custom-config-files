@@ -1,0 +1,24 @@
+Directories:
+
+##Touchpad click configuration
+/etc/X11/xorg.conf.d/touchpad-tap.conf
+
+##Change esc to caps in vscode neovim
+~/.config/Code/User/settings.json
+{
+  "keyboard.dispatch": "keyCode",
+}
+
+##Ranger
+ranger --copy-config=all
+
+#Set w3m
+~/.config/ranger/rc.conf
+set preview_images true
+
+#Set neovim to default editor
+~/.config/ranger/rifle.conf
+Misc
+mine ^text, label editor = nvim -- "$@"
+!mime ^text, label editor, ext xml|json|csv|tex|py|pl|rb|js|sh|php = nvim -- "$@"
+
