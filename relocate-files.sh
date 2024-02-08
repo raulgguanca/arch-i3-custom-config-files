@@ -1,6 +1,6 @@
 #! /bin/bash
 
-mv .alacritty.toml .bash_aliases .bashrc .general-settings.txt .screenlayout .vim .xmodmap start.sh themes.sh ~/tempx
+mv .alacritty.toml .bash_aliases .bashrc .general-settings.txt .screenlayout .vim .xmodmap start.sh themes.sh ~/
 
 sudo mv i3files/config ~/.config/i3/config
 
