@@ -10,4 +10,6 @@ cd Tela-circle-icon-theme
 ./install.sh -c red 
 cd .. && rm -rf Tela-circle-icon-theme
 
+rm -rf themes.sh
+
 exit 0
