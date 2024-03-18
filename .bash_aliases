@@ -20,3 +20,5 @@ alias index="cp ~/Documents/index.html index.html"
 alias dual="sh ~/.screenlayout/dual.sh"
 alias alone="sh ~/.screenlayout/alone.sh"
 alias off="sh ~/.screenlayout/off.sh"
+alias maxvga='xrandr --output VGA1 --brightness 1'
+alias yt='mpv --ytdl-format=22'
