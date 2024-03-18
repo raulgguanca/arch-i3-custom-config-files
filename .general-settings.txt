@@ -22,3 +22,6 @@ Misc
 mine ^text, label editor = nvim -- "$@"
 !mime ^text, label editor, ext xml|json|csv|tex|py|pl|rb|js|sh|php = nvim -- "$@"
 
+##MPV
+mpv --ytdl-format=22 #link
+streamlink -p mpv #link #quality
