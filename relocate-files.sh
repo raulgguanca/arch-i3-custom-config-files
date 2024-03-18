@@ -12,4 +12,8 @@ sudo mv touchpad-tap.conf /etc/X11/xorg.conf.d/touchpad-tap.conf
 
 cd .. && rm -rf arch-i3-custom-config-files
 
+mkdir -p ~/.config/mpv
+
+mv mpv.conf ~/.config/mpv/mpv.conf
+
 exit 0
