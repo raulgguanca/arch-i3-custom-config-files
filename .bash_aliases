@@ -22,3 +22,4 @@ alias alone="sh ~/.screenlayout/alone.sh"
 alias off="sh ~/.screenlayout/off.sh"
 alias maxvga='xrandr --output VGA1 --brightness 1'
 alias yt='mpv --ytdl-format=22'
+alias noct='xrandr --output LVDS1 --gamma 1:0.88:0.76 && xrandr --output VGA1 --gamma 1:0.88:0.76'
