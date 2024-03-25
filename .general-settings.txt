@@ -25,3 +25,12 @@ mine ^text, label editor = nvim -- "$@"
 ##MPV
 mpv --ytdl-format=22 #link
 streamlink -p mpv #link #quality
+
+##Systemd slices
+nvim /usr/lib/systemd/system/user-.slice.d
+
+[Slice]
+TasksMax=70%
+
+systemctl daemon-reload
+
