@@ -1,6 +1,6 @@
 #! /bin/bash
 
-mv .alacritty.toml .bash_aliases .bashrc .general-settings.txt .screenlayout .vim .xmodmap start.sh themes.sh mpv.conf config-nvim.sh nvim ~/
+mv .alacritty.toml .bash_aliases .bashrc .general-settings.txt .screenlayout .xmodmap start.sh themes.sh mpv.conf config-nvim.sh nvim ~/
 
 sudo mv i3files/config ~/.config/i3/config
 
@@ -14,6 +14,6 @@ mkdir -p ~/.config/mpv
 
 mv mpv.conf ~/.config/mpv/mpv.conf
 
-cd .. && rm -rf arch-i3-custom-config-files && rm -r .vim/plugged/temp.txt
+cd .. && rm -rf arch-i3-custom-config-files
 
 exit 0
