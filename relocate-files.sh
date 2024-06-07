@@ -1,6 +1,6 @@
 #! /bin/bash
 
-mv .alacritty.toml .bash_aliases .bashrc .general-settings.txt .screenlayout .vim .xmodmap start.sh themes.sh ~/
+mv .alacritty.toml .bash_aliases .bashrc .general-settings.txt .screenlayout .vim .xmodmap start.sh themes.sh mpv.conf config-nvim.sh nvim ~/
 
 sudo mv i3files/config ~/.config/i3/config
 
@@ -10,10 +10,10 @@ mv nvim ~/.config
 
 sudo mv touchpad-tap.conf /etc/X11/xorg.conf.d/touchpad-tap.conf
 
-cd .. && rm -rf arch-i3-custom-config-files
-
 mkdir -p ~/.config/mpv
 
 mv mpv.conf ~/.config/mpv/mpv.conf
+
+cd .. && rm -rf arch-i3-custom-config-files && rm -r .vim/plugged/temp.txt
 
 exit 0
