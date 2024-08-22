@@ -6,9 +6,9 @@ sudo mkdir -p /root/.config/nvim
 
 sudo mkdir -p /root/.vim/plugged
 
-sudo cp ~/.config/nvim/init.vim /root/.config
+sudo cp ~/.config/nvim/init.vim /root/.config/nvim/
 
-sudo cp ~/.config/nvim/coc-settings.json /root/.config
+sudo cp ~/.config/nvim/coc-settings.json /root/.config/nvim/
 
 #https://github.com/junegunn/vim-plug
 
