@@ -1,5 +1,13 @@
 #! /bin/bash
 
+cp /etc/X11/xinit/xinitrc /home/raul/.xinitrc
+
+echo 'picom &' >> /home/raul/.xinitrc
+
+echo 'numlockx &' >> /home/raul/.xinitrc
+
+echo 'exec i3' >> /home/raul/.xinitrc
+
 mv .alacritty.toml .bash_aliases .bashrc .general-settings.txt .screenlayout .xmodmap start.sh themes.sh config-nvim.sh ~/
 
 sudo mv i3files/config ~/.config/i3/config
