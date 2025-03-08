@@ -6,4 +6,12 @@ systemctl enable dhcpcd
 
 systemctl enable NetworkManager
 
+cp /etc/X11/xinit/xinitrc /home/raul/.xinitrc
+
+echo 'picom &' >> /home/raul/.xinitrc
+
+echo 'numlockx &' >> /home/raul/.xinitrc
+
+echo 'exec i3' >> /home/raul/.xinitrc
+
 exit 0
