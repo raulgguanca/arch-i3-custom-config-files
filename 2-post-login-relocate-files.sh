@@ -2,6 +2,10 @@
 
 mv .alacritty.toml .bash_aliases .bashrc .general-settings.txt .screenlayout .xmodmap start.sh themes.sh config-nvim.sh ~/
 
+mv nftables.conf /etc/nftables.conf
+
+sudo nft -f /etc/nftables.conf
+
 sudo mv i3files/config ~/.config/i3/config
 
 sudo mv i3files/i3status.conf /etc/i3status.conf
