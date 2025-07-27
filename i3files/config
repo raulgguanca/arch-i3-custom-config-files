@@ -50,6 +50,9 @@ bindsym $mod+i exec  --no-startup-id amixer set Master 5%+
 bindsym $mod+u exec  --no-startup-id amixer set Master 5%-
 bindsym $mod+o exec --no-startup-id amixer set Master toggle
 
+#screenshot
+bindsym Print exec --no-startup-id flameshot gui
+
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
