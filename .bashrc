@@ -22,5 +22,14 @@ de() {
   xmod;
 }
 
+gitupd() {
+  git checkout main
+  git pull
+  git checkout $1
+  git merge main
+  git push
+}
+
 export -f update;
 export -f de;
+export -f gitupd;
