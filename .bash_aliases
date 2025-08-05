@@ -1,13 +1,11 @@
 alias aliases='nvim ~/.bash_aliases'
-alias r='ranger'
+alias r='ranger_cd'
 alias d="setxkbmap -layout 'latam' -variant 'dvorak'"
 alias l="setxkbmap -layout 'latam'"
-alias xmod='xmodmap ~/.xmodmap'
 alias surofi='sudo rofi -show run'
 alias sdn='shutdown now'
 alias sps='sudo pacman -Syu'
 alias init='nvim ~/.config/nvim/init.vim'
-alias index="cp ~/Documents/index.html index.html"
 alias dual="sh ~/.screenlayout/dual.sh"
 alias alone="sh ~/.screenlayout/alone.sh"
 alias off="sh ~/.screenlayout/off.sh"

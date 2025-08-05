@@ -30,6 +30,16 @@ gitupd() {
   git push
 }
 
+ranger_cd() {
+    tempfile="$(mktemp -t ranger_cd.XXXXXX)"
+    ranger --choosedir="$tempfile" "$@"
+    if [ -f "$tempfile" ] && [ "$(cat "$tempfile")" != "$(pwd)" ]; then
+        cd "$(cat "$tempfile")" || return
+    fi
+    rm -f "$tempfile"
+}
+
 export -f update;
 export -f de;
 export -f gitupd;
+export -f ranger_cd;
