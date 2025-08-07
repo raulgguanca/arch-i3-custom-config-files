@@ -18,4 +18,10 @@ echo 'numlockx &' >> /home/raul/.xinitrc
 
 echo 'exec i3' >> /home/raul/.xinitrc
 
+##Ranger
+ranger --copy-config=all
+
+##Fastfetch
+fastfetch --gen-config
+
 exit 0

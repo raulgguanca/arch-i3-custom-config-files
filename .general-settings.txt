@@ -1,8 +1,5 @@
 Directories:
 
-##Touchpad click configuration
-/etc/X11/xorg.conf.d/touchpad-tap.conf
-
 ##Change esc to caps in vscode neovim
 ~/.config/Code/User/settings.json
 {
@@ -10,8 +7,6 @@ Directories:
 }
 
 ##Ranger
-ranger --copy-config=all
-
 #Set w3m
 ~/.config/ranger/rc.conf
 set preview_images true
