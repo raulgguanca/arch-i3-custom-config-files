@@ -20,6 +20,8 @@ mkdir -p ~/.config/mpv
 
 mv mpv.conf ~/.config/mpv/mpv.conf
 
+mv ./JMH Typewriter mono.ttf /usr/share/fonts/
+
 cd .. && rm -rf arch-i3-custom-config-files
 
 exit 0
