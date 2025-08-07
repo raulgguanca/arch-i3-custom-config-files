@@ -30,6 +30,12 @@ gitupd() {
   git push
 }
 
+gitplm() {
+  git checkout main
+  git pull
+  git checkout $1
+}
+
 ranger_cd() {
     tempfile="$(mktemp -t ranger_cd.XXXXXX)"
     ranger --choosedir="$tempfile" "$@"
@@ -43,3 +49,4 @@ export -f update;
 export -f de;
 export -f gitupd;
 export -f ranger_cd;
+export -f gitplm;
