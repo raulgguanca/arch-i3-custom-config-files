@@ -20,7 +20,7 @@ mkdir -p ~/.config/mpv
 
 mv mpv.conf ~/.config/mpv/mpv.conf
 
-sudo mv JMH\ Typewriter\ mono.ttf /usr/share/fonts/JMH\ Typewriter\ mono.ttf
+sudo mv ./Courier\ Prime.ttf Typewriter.ttf JMH\ Typewriter\ mono.ttf /usr/share/fonts/
 
 cd .. && rm -rf arch-i3-custom-config-files
 
