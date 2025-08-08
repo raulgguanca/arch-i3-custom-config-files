@@ -10,13 +10,13 @@ systemctl enable nftables
 
 systemctl enable tlp.service
 
-cp /etc/X11/xinit/xinitrc /home/raul/.xinitrc
+cp /etc/X11/xinit/xinitrc ~/.xinitrc
 
-echo 'picom &' >> /home/raul/.xinitrc
+echo 'picom &' >> ~/.xinitrc
 
-echo 'numlockx &' >> /home/raul/.xinitrc
+echo 'numlockx &' >> ~/.xinitrc
 
-echo 'exec i3' >> /home/raul/.xinitrc
+echo 'exec i3' >> ~/.xinitrc
 
 ##Ranger
 ranger --copy-config=all
