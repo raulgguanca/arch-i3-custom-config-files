@@ -1,6 +1,6 @@
 #! /bin/bash
 
-mv .alacritty.toml .bash_aliases .bashrc .general-settings.txt .screenlayout .xmodmap start.sh themes.sh config-nvim.sh ~/
+mv .alacritty.toml .bash_aliases .bashrc .general-settings.txt .screenlayout start.sh themes.sh config-nvim.sh ~/
 
 mv nftables.conf /etc/nftables.conf
 
@@ -20,7 +20,7 @@ mkdir -p ~/.config/mpv
 
 mv mpv.conf ~/.config/mpv/mpv.conf
 
-sudo mv ./Courier\ Prime.ttf Typewriter.ttf JMH\ Typewriter\ mono.ttf /usr/share/fonts/
+sudo mv Courier\ Prime.ttf Typewriter.ttf JMH\ Typewriter\ mono.ttf /usr/share/fonts/
 
 cd .. && rm -rf arch-i3-custom-config-files
 
