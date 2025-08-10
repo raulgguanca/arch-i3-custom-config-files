@@ -19,6 +19,8 @@ echo 'numlockx &' >> /home/$1/.xinitrc
 
 echo 'exec i3' >> /home/$1/.xinitrc
 
+chown -R $1 /home/$1/.xinitrc
+
 ##Ranger
 ranger --copy-config=all
 
