@@ -22,6 +22,14 @@ mv mpv.conf ~/.config/mpv/mpv.conf
 
 sudo mv Courier\ Prime.ttf Typewriter.ttf JMH\ Typewriter\ mono.ttf /usr/share/fonts/
 
+##Ranger
+ranger --copy-config=all
+
+##Fastfetch
+fastfetch --gen-config
+
+mkdir -p ~/pictures/lockscreen ~/pictures/screenshots ~/pictures/wallpapers ~/downloads ~/documents ~/projects ~/unzip ~/learn ~/write ~/backup
+
 cd .. && rm -rf arch-i3-custom-config-files
 
 exit 0
